@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans:wght@400;500&family=Poppins:wght@700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-navy text-white font-inter m-0 p-0 antialiased overflow-x-hidden;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-poppins;
+  }
+}
+
+@layer components {
+  /* Layout utilities */
+  .app-container {
+    @apply min-h-screen flex flex-col;
+  }
+  
+  /* Glassmorphism card */
+  .glass-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    @apply rounded-xl;
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    @apply bg-saffron text-white rounded-[8px] font-medium transition-all duration-200 cursor-pointer;
+    padding: 12px 28px;
+  }
+  
+  .btn-primary:hover {
+    box-shadow: 0 0 20px rgba(255, 107, 53, 0.3);
+  }
+  
+  .btn-ghost {
+    @apply text-saffron bg-transparent rounded-[8px] font-medium transition-all duration-200 cursor-pointer;
+    border: 1px solid theme('colors.saffron');
+    padding: 12px 28px;
+  }
+  
+  .btn-ghost:hover {
+    @apply bg-saffron/10;
+    box-shadow: 0 0 20px rgba(255, 107, 53, 0.3);
+  }
+  
+  /* Saffron Hover Glow */
+  .hover-glow:hover {
+    box-shadow: 0 0 20px rgba(255, 107, 53, 0.3);
+    @apply transition-all duration-200;
+  }
+  
+  .border-glow:hover {
+    @apply border-saffron;
+    box-shadow: 0 0 20px rgba(255, 107, 53, 0.3);
+    @apply transition-all duration-200;
+  }
+  
+  /* Langs */
+  .lang-non-latin {
+    @apply font-noto;
+  }
+  
+  /* Progress lines */
+  .progress-bar-fill {
+    @apply h-full bg-saffron rounded-full transition-all duration-500 ease-in-out;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-navy;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-surface rounded-full;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-saffron/50;
+}
