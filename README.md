@@ -1,88 +1,223 @@
-# 🏛️ UdyamPath: The High-Stakes Stakeholder Simulator
+# UdyamPath
 
-[![Deployment Status](https://img.shields.io/badge/Status-Live-success?style=for-the-badge)](https://udyampath-production.up.railway.app/)
-[![Hackathon](https://img.shields.io/badge/Hackathon-GDG%202026-blue?style=for-the-badge)](https://github.com/GouravAgarwal2716/UdyamPath)
+### The High-Stakes Stakeholder Simulator for Social Entrepreneurs
 
-> **"Traditional courses teach you to read a map. UdyamPath teaches you to fly the plane during a storm."**
+[![Status](https://img.shields.io/badge/Status-Live-success?style=for-the-badge)](https://udyam-path-qhcd.vercel.app/)
+[![Demo](https://img.shields.io/badge/Demo-Vercel-black?style=for-the-badge&logo=vercel)](https://udyam-path-qhcd.vercel.app/)
+[![Hackathon](https://img.shields.io/badge/GDG-2026-blue?style=for-the-badge)](https://github.com/VEDESH18/UdyamPath)
+[![React](https://img.shields.io/badge/React-18-61dafb?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-6-646cff?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![GitHub](https://img.shields.io/badge/GitHub-VEDESH18-181717?style=for-the-badge&logo=github)](https://github.com/VEDESH18)
 
-UdyamPath is an AI-first, immersive simulation engine that prepares Indian social entrepreneurs for the high-stakes reality of building a startup. It bridges the gap between passive learning and real-world execution using vernacular-first agentic AI.
+> "Traditional courses teach you to read a map. UdyamPath teaches you to fly the plane during a storm."
 
----
+UdyamPath is an AI-first simulation and coaching platform built for founders in India, especially Tier-2 and Tier-3 ecosystems. It converts passive startup learning into realistic decision-making through scenario simulation, multilingual guidance, and role-based stakeholder interactions.
 
-## 🔗 Quick Links
-*   **Live Demo:** [udyampath-production.up.railway.app](https://udyampath-production.up.railway.app/)
----
+## Live Product
 
-## 📖 Table of Contents
-1.  [The Problem & Solution](#-the-problem--solution)
-2.  [Key Features](#-key-features)
-3.  [Agentic AI Architecture](#-agentic-ai-architecture)
-4.  [Technical Stack](#-technical-stack)
-5.  [The Simulation Engine](#-the-simulation-engine)
-6.  [Installation & Setup](#-installation--setup)
-7.  [Hackathon Pitch](#-hackathon-pitch)
+- Production: https://udyam-path-qhcd.vercel.app/
 
----
+## What Is UdyamPath?
 
-## 🛑 The Problem & Solution
-### The Problem
-First-time founders in Bharat (Tier-2/3 India) fail because they lack access to high-stakes decision-making mentors. Traditional education is text-heavy, urban-centric, and passive.
+UdyamPath is designed as a founder command center for high-pressure startup choices:
 
-### The Solution: UdyamPath
-We provide a **"Bandersnatch for Business."** Our simulator maps real-world Indian unicorn crises (Zepto, Zomato, Byju's) onto the user's specific social enterprise idea. We replace dry quizzes with **high-stakes dialogue** in the user's native language.
+- Validate social startup ideas before expensive execution.
+- Practice critical conversations with investors, officials, and beneficiaries.
+- Learn through dynamic scenarios, not static quizzes.
+- Build confidence with localized, multilingual AI coaching.
 
----
+## Why This Project Matters
 
-## ✨ Key Features
-*   **Stakeholder Interaction Engine:** Talk directly to 👔 Investors, 🏛️ Govt Officials, and 🧑‍🌾 Rural Beneficiaries.
-*   **Vernacular First:** Full voice-based AI coaching in **Hindi, Telugu, Tamil, and English** via **Sarvam AI**.
-*   **Dynamic Intelligence:** Real-time news context integration ensures simulations reflect current RBI/GOI regulations.
-*   **Narrative Branching:** Your choices create specialized "Growth Paths," affecting your startup's `Community_Trust` and `Sustainability` scores.
+In early-stage entrepreneurship, failure is often caused by execution decisions under uncertainty, not lack of intent. UdyamPath addresses that gap by providing:
 
----
+- Contextual simulation over textbook theory.
+- Vernacular coaching for inclusive adoption.
+- Repeatable, measurable learning loops for founder growth.
 
-## 🧠 Agentic AI Architecture
-UdyamPath operates as a **Multi-Agent Ecosystem**:
-*   **The Validator Agent:** Audits ideas for social impact and market viability.
-*   **The Simulation Director:** Transmutes real case studies into personalized narratives.
-*   **The Udyam Guru (Mentor):** A supportive AI providing real-time audio guidance and emotional support.
-*   **The Resource Agent:** Dynamically maps YouTube/Whitepaper resources to the user's "Blindspots."
+## Core Product Modules
 
----
+### 1) AI Stakeholder Simulator
 
-## 🛠️ Technical Stack
-| Layer | Technology |
-| :--- | :--- |
-| **Frontend** | **React 18 + Vite** (Ultra-fast performance) |
-| **Styling** | **TailwindCSS** (Modern, glossy design system) |
-| **AI Brain** | **OpenAI GPT-4o / Google Gemini 1.5 Flash** |
-| **Vernacular** | **Sarvam AI** (Conversational TTS) |
-| **Database** | **Firebase Firestore** (Real-time Cloud Sync) |
-| **Auth** | **Firebase Auth** (Secure Profile Hydration) |
-| **Animation** | **Framer Motion** (Immersive UI transitions) |
+- Simulates investor, government, and community conversations.
+- Changes narrative path based on user responses.
+- Evaluates trust, clarity, and strategy quality.
 
----
+### 2) Founder Coaching Layer
 
-## ⚙️ The Simulation Engine
-Our simulator uses an **8-Core Curriculum** targeting the critical failure points of social startups:
-1.  **Fundraising (Seed)**
-2.  **Crisis Management (Byju's Style)**
-3.  **Sales & Growth (Finding first 100 customers)**
-4.  **HR & Leadership (Team Building)**
-5.  **Govt & Compliance (RBI/MSME regulations)**
-6.  **Zero-Budget Marketing (Viral Growth)**
-7.  **Pivot Strategy**
-8.  **Revenue Modeling**
+- Supports Hindi, Telugu, Tamil, and English interactions.
+- Guides users in real-time through challenging scenarios.
+- Provides adaptive feedback with explanation-oriented coaching.
 
----
+### 3) Smart Learning Engine
 
-## 🚀 Installation & Setup
+- Tracks performance across modules.
+- Stores progression and outcomes for each user.
+- Surfaces targeted resources to close skill gaps.
 
-1. **Clone the repo**
-2. **Install:** `npm install`
-3. **Environment:** Create `.env` in the root:
-   ```env
-   VITE_OPENAI_API_KEY=your_key
-   VITE_GEMINI_API_KEY=your_key
-   VITE_SARVAM_API_KEY=your_key
-   VITE_FIREBASE_API_KEY=...
+### 4) Validation and Decision Intelligence
+
+- Stress-tests idea feasibility and impact potential.
+- Helps users reason about pivot risk, growth fit, and compliance.
+- Encourages evidence-backed decision making.
+
+## Agentic AI Architecture
+
+UdyamPath uses a multi-agent design pattern:
+
+- Validator Agent: assesses social impact and viability.
+- Simulation Director: generates role-play scenarios from business context.
+- Udyam Guru Agent: mentor-style support for confidence and clarity.
+- Resource Agent: maps weaknesses to actionable learning resources.
+
+## Technology Stack
+
+### Frontend
+
+- React 18
+- Vite 6
+- TailwindCSS
+- Framer Motion
+- React Router
+
+### AI and Data
+
+- OpenAI
+- Google Gemini
+- Sarvam AI
+- Firebase Firestore
+- Firebase Authentication
+
+### Utility and Reporting
+
+- jsPDF
+- Recharts
+
+## Learning Curriculum (8 Critical Founder Tracks)
+
+1. Fundraising and investor readiness
+2. Crisis response and reputation management
+3. Sales and early traction strategy
+4. Team and leadership decisions
+5. Government and compliance workflow
+6. Zero-budget marketing execution
+7. Pivot strategy under uncertainty
+8. Revenue and sustainability modeling
+
+## Project Structure
+
+```text
+UdyamPath/
+   src/
+      components/
+      context/
+      data/
+      hooks/
+      pages/
+      services/
+      utils/
+```
+
+## Installation and Local Setup
+
+### Prerequisites
+
+- Node.js 18+
+- npm 9+
+
+### 1) Clone and Install
+
+```bash
+git clone https://github.com/VEDESH18/UdyamPath.git
+cd UdyamPath
+npm install
+```
+
+### 2) Configure Environment
+
+Create a root `.env` file with:
+
+```env
+VITE_GEMINI_API_KEY=your_gemini_key
+VITE_YOUTUBE_API_KEY=your_youtube_key
+VITE_OPENAI_API_KEY=your_openai_key
+VITE_SARVAM_API_KEY=your_sarvam_key
+
+VITE_FIREBASE_API_KEY=your_firebase_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_project.firebasestorage.app
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+VITE_FIREBASE_APP_ID=your_app_id
+VITE_FIREBASE_MEASUREMENT_ID=your_measurement_id
+```
+
+### 3) Run the App
+
+```bash
+npm run dev
+```
+
+## Deployment Guide
+
+### Deploy Frontend on Vercel
+
+1. Import repository in Vercel.
+2. Root Directory: `UdyamPath`
+3. Build Command: `npm run build`
+4. Output Directory: `dist`
+5. Add all `VITE_` environment variables.
+6. Deploy and verify.
+
+### Firebase Production Auth Checklist
+
+To avoid `auth/unauthorized-domain`:
+
+1. Open Firebase Console for active project.
+2. Go to Authentication -> Settings -> Authorized domains.
+3. Add exact Vercel domain (and custom domain if any).
+4. Enable Email/Password and Google providers.
+
+## Security Best Practices
+
+- Never commit `.env` or private keys.
+- Keep API secrets in platform environment variables.
+- Rotate exposed keys immediately if leaked.
+- Use backend proxy for sensitive AI keys in production.
+
+## Performance Notes
+
+- Large Vite chunk warnings are optimization hints, not deploy blockers.
+- Recommended improvements:
+  - Route-level code splitting
+  - Manual chunking via Rollup options
+  - Lazy-loading heavy components
+
+## Roadmap
+
+- Server-side AI proxy for secure key management
+- Scenario analytics for mentors and incubators
+- Expanded language coverage
+- Adaptive difficulty based on founder maturity
+
+## Contributing
+
+Contributions are welcome:
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit clear, atomic changes
+4. Open a pull request
+
+## Contact
+
+- GitHub: https://github.com/VEDESH18
+- LinkedIn: https://www.linkedin.com/in/vedesh-ridhvi/
+- Email: vedeshridhvi@gmail.com
+
+## License
+
+Currently shared for hackathon and portfolio use. Add a formal license for open-source distribution.
+
+## Author
+
+Built by VEDESH18 for GDG Hackathon 2026.
